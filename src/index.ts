@@ -14,4 +14,4 @@ app.listen(port, () =>
   logger.info(`App listening at http://localhost:${port}`),
 );
 
-app.get('/', (req, res) => res.send('Hello World!'));
+app.get('/', (req, res) => res.send('Welcome to the Anime scraper project'));
